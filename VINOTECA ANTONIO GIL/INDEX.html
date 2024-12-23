@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinoteca Antonio Gil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo-gauchito-gil.png" alt="Vinoteca Antonio Gil Logo">
+        </div>
+        <h1>Vinoteca Antonio Gil</h1>
+        <p>Inspirada en la tradición y devoción del Gauchito Gil</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#vinos">Nuestros Vinos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>En Vinoteca Antonio Gil, celebramos la pasión por el vino y la tradición del Gauchito Gil. Ofrecemos una selección exclusiva de vinos argentinos, seleccionados con cuidado para garantizar la mejor calidad y sabor.</p>
+        <img src="images/gauchito-gil-tradicion.jpg" alt="Imagen del Gauchito Gil">
+    </section>
+
+    <section id="vinos">
+        <h2>Nuestros Vinos</h2>
+        <div class="vinos">
+            <article>
+                <img src="images/vino-malbec.jpg" alt="Malbec">
+                <h3>Malbec Tradicional</h3>
+                <p>Un clásico argentino, con notas de ciruela y especias.</p>
+            </article>
+            <article>
+                <img src="images/vino-cabernet.jpg" alt="Cabernet Sauvignon">
+                <h3>Cabernet Sauvignon</h3>
+                <p>Elegancia y carácter en cada copa.</p>
+            </article>
+            <article>
+                <img src="images/vino-blanco.jpg" alt="Torrontés">
+                <h3>Torrontés</h3>
+                <p>Frescura y aroma floral, ideal para días cálidos.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Quieres saber más sobre nuestros vinos o realizar un pedido? Contáctanos:</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vinoteca Antonio Gil. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
